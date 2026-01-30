@@ -1,0 +1,84 @@
+h2 {
+    color: #2563eb;
+    font-size: 16px;
+}
+body {
+    background-color: #f9fafb;
+    color: #1f2937;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+.card {
+    color: green;
+}
+
+#submit-btn {
+    background-color: blue;
+    color: white;
+}
+
+#h1 {
+    color: #2563eb;
+    font:20px "Fira Sans", sans-serif;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10%;
+}
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* .btn {
+    background-color: yellow;
+} */
+
+
+#navs {
+    border: 1px solid rgb(198, 197, 197);
+    padding: 20px 1px;
+    font-size: large;
+    background-color: #9aa9c9;
+    display: flex;
+    justify-content: space-around;
+    /* color: white; */
+}
+
+#error {}
+
+
+
+
+#profileImg {
+    height: 140px;
+    width: 140px;
+    border-radius: 80%;
+    border: 2px solid rgb(133, 127, 127);
+    object-fit: cover;
+
+}
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #2563eb;   /* primary blue */
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
