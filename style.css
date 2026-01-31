@@ -47,7 +47,9 @@ button:hover {
     /* color: white; */
 }
 
-#error {}
+#error {
+    color : red;
+}
 
 
 
